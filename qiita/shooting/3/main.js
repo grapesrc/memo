@@ -33,7 +33,7 @@
         }
     }
     function e_draw(){
-        for(var i = 0;i < lx.length;i++){
+        for(var i = 0;i < ex.length;i++){
             ctx.beginPath()
             ctx.rect(ex[i],ey[i],12,12)
             ctx.fillStyle="#ff00ff"
